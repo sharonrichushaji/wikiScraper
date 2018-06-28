@@ -2,6 +2,7 @@ from bs4 import BeautifulSoup
 #from urllib3 import urljoin
 import requests
 
+'''
 search_input = "India"
 url = "https://en.wikipedia.org/wiki/Lilly_Singh"
 #page = requests.post(url, data = search_input)
@@ -10,6 +11,7 @@ print(page)
 soup = BeautifulSoup(page.content, 'html.parser')
 
 print(soup.find('h1', class_="firstHeading").get_text())
+'''
 #full_body = soup.find('div', class_="mw-parser-output").get_text()
 #print(soup.find('p', full_body[10]))
 #print(soup.prettify())
